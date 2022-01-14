@@ -1,0 +1,98 @@
+body{
+    width: 100%;
+    margin: 0%;
+}
+
+.text{
+    font-size: 50px;
+}
+
+.container-fluid{
+    height:100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,255,0,0.2),white);
+}
+
+.container-fluid .head{
+    width: 100%;
+    height: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container-fluid .head img{
+    margin: 2px;
+    border-radius: 50px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.container-fluid .body{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form{
+    min-height: 250px;
+    height: auto;
+width: 255px;
+border-left: 2px grey solid;
+border-right: 2px grey solid;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.login-form input{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.head , .head-n {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.head-n{
+    width: 100%;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.body-n{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.head img , .head span , .head div , .head-n img , .head-n span , .head-n div{
+    margin: 8px;
+}
+
+.bg{
+    background-color: bisque;
+}
+
+table tr:nth-child(even){
+    background-color: rgba(0,0,200,0.1);
+}
